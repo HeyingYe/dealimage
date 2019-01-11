@@ -1,0 +1,23 @@
+{
+  "name": "dealimage",
+  "version": "1.0.6",
+  "description": "Using canvas to process pictures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HeyingYe/dealimage.git"
+  },
+  "keywords": [
+    "canvas",
+    "imgae"
+  ],
+  "author": "heyingye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HeyingYe/dealimage/issues"
+  },
+  "homepage": "https://github.com/HeyingYe/dealimage#readme"
+}
