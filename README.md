@@ -3,11 +3,14 @@ Using canvas to process pictures
 npm i dealimage
 
 ##html
+     ``` 
       <canvas id="canvas"></canvas>
       <p><img src="" alt=""></p>
       <input type="file" name="" value="">
+      ```
 
 ##js
+      ```
       var inputEle = document.querySelector("input");
       inputEle.addEventListener("change", function() {
 
@@ -53,3 +56,4 @@ npm i dealimage
             }
         })
       })
+      ```
