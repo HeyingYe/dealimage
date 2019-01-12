@@ -1,5 +1,7 @@
 # dealimage
 Using canvas to process pictures
+[何如使用canvas做图片处理
+](https://heyingye.github.io/2019/01/12/%E4%BD%95%E5%A6%82%E4%BD%BF%E7%94%A8canvas%E5%81%9A%E5%9B%BE%E7%89%87%E5%A4%84%E7%90%86/)
 ```
 npm i dealimage --save
 ```
