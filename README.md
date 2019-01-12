@@ -1,7 +1,7 @@
 # dealimage
 Using canvas to process pictures
 ```
-npm i dealimage
+npm i dealimage --save
 ```
 # html
 ``` 
