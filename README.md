@@ -1,7 +1,8 @@
 # dealimage
 Using canvas to process pictures
+```
 npm i dealimage
-
+```
 # html
 ``` 
  <canvas id="canvas"></canvas>
