@@ -13,14 +13,14 @@
     <script src="js/index.js" type="text/javascript"></script>
 
     <script>
-
+      var img;
       var inputEle = document.querySelector("input");
       inputEle.addEventListener("change", function() {
-
-        var img = new DealImage({
+        console.log(this.files[0])
+        img = new DealImage({
             target: "#canvas",
             mosaicSize: 10,
-            image: "https://avatars1.githubusercontent.com/u/25859283?v=4"
+            image: this.files[0]
         })
 
         img.draw({

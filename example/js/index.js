@@ -4,9 +4,9 @@
  */
 
 /*
- * @param  target      Object        canvas目标元素
- * @param  image       String        图片url
- * @param  mosaicSize  Number        马赛克大小
+ * @param  target      Object                   canvas目标元素
+ * @param  image       String|FileObject        图片url或文件对象
+ * @param  mosaicSize  Number                   马赛克大小
  * return  dealImage实例对象
  */
 function DealImage({target, image, mosaicSize=20}) {
@@ -60,7 +60,7 @@ DealImage.prototype = {
             /*
             处理成功后，若传进的是file对象则主动释放内存
             */
-            if(self.opt.image === "object") {
+            if(self.url && typeof self.opt.image === "object") {
               URL.revokeObjectURL(self.url);
             }
 

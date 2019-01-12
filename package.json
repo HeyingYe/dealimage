@@ -1,6 +1,6 @@
 {
   "name": "dealimage",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Using canvas to process pictures",
   "main": "index.js",
   "scripts": {

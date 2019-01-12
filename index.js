@@ -60,7 +60,7 @@ DealImage.prototype = {
             /*
             处理成功后，若传进的是file对象则主动释放内存
             */
-            if(self.opt.image === "object") {
+            if(self.url && typeof self.opt.image === "object") {
               URL.revokeObjectURL(self.url);
             }
 
